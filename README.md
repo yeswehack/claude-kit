@@ -18,6 +18,10 @@ One install adds two things to Claude Code: an **always-on discipline
 layer** applied to every session, and **three on-demand skills** for
 writing, triaging, and class-specific checks.
 
+> **Full walkthrough:** [Triager-grade reports with Claude
+> Code](https://www.yeswehack.com/fr/learn-bug-bounty/triager-grade-reports-claude-code)
+> on YesWeHack.
+
 ---
 
 ## Install

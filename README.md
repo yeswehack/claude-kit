@@ -27,8 +27,9 @@ inside Claude Code:
 
 ```
 /plugin marketplace add yeswehack/claude-kit
-/plugin install ywh@yeswehack
+/reload-plugins
 ```
+![Installation](docs/screenshots/install.png)
 
 Run `/plugin` to confirm it is listed and enabled - both layers are now
 active.

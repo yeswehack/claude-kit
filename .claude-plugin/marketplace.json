@@ -1,0 +1,14 @@
+{
+  "name": "yeswehack",
+  "description": "YesWeHack tooling for Claude Code: produce triager-grade bug bounty reports instead of AI slop.",
+  "owner": {
+    "name": "YesWeHack"
+  },
+  "plugins": [
+    {
+      "name": "ywh",
+      "source": ".",
+      "description": "Produce triager-grade YesWeHack reports instead of AI slop: always-on drafting discipline plus three on-demand skills (write, triage, gotchas)."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "ywh",
+  "description": "Produce triager-grade YesWeHack reports instead of AI slop: always-on drafting discipline plus three on-demand skills (write, triage, gotchas).",
+  "version": "1.0.0",
+  "author": {
+    "name": "YesWeHack"
+  },
+  "homepage": "https://github.com/yeswehack/claude-kit",
+  "repository": "https://github.com/yeswehack/claude-kit",
+  "license": "GPL-3.0-or-later",
+  "keywords": ["bug-bounty", "yeswehack", "security", "reporting", "triage"]
+}

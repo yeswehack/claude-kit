@@ -70,10 +70,12 @@ on YesWeHack.
   flag any Environmental/Temporal metrics the hunter set themselves
   (those are the program's to weigh; setting them inflates the score).
   The classic LLM pattern is the "max-severity" vector
-  (`AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H` = 9.8) defaulted onto a bug
+  (`AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H` = 10.0) defaulted onto a bug
   it doesn't fit. Common mismatches: `PR:N` claimed when auth has a
-  real gate (paid tier, admin invite, org membership) — `PR:N` is
-  only correct when self-registration is open; `UI:N` claimed when
+  real gate (paid tier, admin invite, org membership, or a basic user
+  account). Open self-registration does not make authenticated access
+  `PR:N`; use `PR:L` if the exploit depends on the account's privileges.
+  Another common mismatch is `UI:N` claimed when
   the victim must click / paste / load; `S:C` claimed without an
   actual trust boundary crossing; `AC:L` claimed when the resource ID
   is a non-guessable UUID (that's `AC:H`). Check each metric against

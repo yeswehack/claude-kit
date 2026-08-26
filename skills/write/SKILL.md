@@ -182,8 +182,9 @@ are slop-prone, so verify them in your review:
 - Sections present but empty / "TBD" / "see PoC".
 - Steps that say "trigger the vulnerability" — not atomic.
 - Impact section longer than the PoC.
-- Severity vector that doesn't match the preconditions (e.g., `PR:L`
-  claimed when self-registration is open and `PR:N` applies).
+- Severity vector that doesn't match the preconditions (e.g., `PR:N`
+  claimed even though the exploit requires an authenticated basic user.
+  Open self-registration does not remove that privilege requirement.)
 - Repro steps that reference a screenshot instead of giving the URL.
 
 Watch your own output for AI-slop patterns (theoretical impact,
